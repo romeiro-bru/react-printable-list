@@ -1,0 +1,38 @@
+form {
+  display: inline-block;
+}
+
+input,
+select {
+  display: block;
+  background: transparent;
+  width: 15rem;
+  padding: 8px 5px;
+  margin: 0.4rem 0.5rem;
+  border-radius: 8px;
+  border: 1.5px solid #c17db8;
+  color: white;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+select {
+  color: gray;
+  width: 15.9rem;
+}
+
+button {
+  padding: 0.7rem 2em;
+  margin: 8px;
+  background: #75a3e4;
+  border: none;
+  border-radius: 5px;
+  color: #0f0a19;
+  font-weight: bold;
+  outline: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #6794d4;
+}
