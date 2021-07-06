@@ -6,7 +6,7 @@ input,
 select {
   display: block;
   background: transparent;
-  width: 15rem;
+  width: 13rem;
   padding: 8px 5px;
   margin: 0.4rem 0.5rem;
   border-radius: 8px;
@@ -18,7 +18,7 @@ select {
 
 select {
   color: gray;
-  width: 15.9rem;
+  width: 13.9rem;
 }
 
 button {
@@ -35,4 +35,9 @@ button {
 
 button:hover {
   background: #6794d4;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
 }
