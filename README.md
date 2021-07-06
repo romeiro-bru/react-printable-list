@@ -1,16 +1,14 @@
-## Day Seven / 30 days of React challenge / Animal Shelter
+## Day Twelve / 30 days of React challenge / 
 
 <p  align="center">
-<img  src="https://media.giphy.com/media/xT1R9WBeRzL9BS3wxq/giphy.gif"  height="180" alt="dog">
+<img  src="https://media.giphy.com/media/S60FmbC13E0tlsNp3N/giphy.gif"  height="180" alt="print">
 </p>
 
 ## Features :unicorn: 
-* Register a recently rescued animal in the shelter
-* Fill in the input fields with information about the animal
+* Add items to list
+* Print the list
 
 ## Technologies :mag_right:
 * React :sparkles:
 * Css :nail_care:
 
-#
-Inspired on: [“Vet Log”](https://github.com/graceaveris/React.js_vet_log) of @graceaveris
