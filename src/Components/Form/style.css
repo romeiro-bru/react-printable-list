@@ -22,7 +22,8 @@ select {
 }
 
 button {
-  padding: 0.7rem 2em;
+  position: relative;
+  padding: 0.7rem 1.8em;
   margin: 8px;
   background: #75a3e4;
   border: none;
@@ -35,4 +36,17 @@ button {
 
 button:hover {
   background: #6794d4;
+}
+
+.btn-page-list {
+  padding: 0.7rem 1.8rem 0.7rem 1rem;
+}
+
+.arrow-right {
+  position: absolute;
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  font-size: 1rem;
+  bottom: 2rem;
 }

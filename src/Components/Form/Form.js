@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
+import { BsArrowRightShort } from "react-icons/bs";
 import "./style.css";
 
 export function Form() {
@@ -39,18 +40,21 @@ export function Form() {
         <input
           name="ingredient"
           onChange={handleInputChange}
-          placeholder="  Ingrediente"
+          placeholder=" Ingrediente"
           required
         />
         <select name="metrics" onChange={handleInputChange} required>
-          <option value="Kg">Kg</option>
+          <option value="Kg"> Kg</option>
           <option selected value="mL">
             mL
           </option>
         </select>
 
         <button type="submit">Adicionar</button>
-        <button onClick={handlePageList}>Ver lista</button>
+        <button className="btn-page-list" onClick={handlePageList}>
+          Ver lista
+          <BsArrowRightShort className="arrow-right" />
+        </button>
       </form>
     </>
   );
