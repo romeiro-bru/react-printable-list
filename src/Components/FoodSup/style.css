@@ -1,6 +1,7 @@
 .sup-list {
   list-style-type: none;
   color: white;
+  text-align: left;
 }
 
 .sup-list li {
@@ -9,4 +10,17 @@
 
 .btn-return {
   margin-top: 1rem;
+  background-color: transparent;
+  color: #f1c95c;
+  position: relative;
+  padding: 0.7rem 1rem 0.7rem 1.8rem;
+}
+
+.arrow-left {
+  position: absolute;
+  position: absolute;
+  top: 30%;
+  right: 70%;
+  font-size: 1rem;
+  bottom: 2rem;
 }

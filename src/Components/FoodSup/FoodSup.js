@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { BsArrowLeft } from "react-icons/bs";
 import "./style.css";
 import { useHistory } from "react-router-dom";
 
@@ -27,7 +28,8 @@ export function FoodSup() {
           </li>
         ))}
         <button className="btn-return" onClick={handleReturn}>
-          return
+          <BsArrowLeft className="arrow-left" />
+          voltar
         </button>
       </ul>
     </>

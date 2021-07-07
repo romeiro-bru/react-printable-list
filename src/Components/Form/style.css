@@ -35,10 +35,12 @@ button {
 }
 
 button:hover {
-  background: #6794d4;
+  opacity: 0.85;
 }
 
 .btn-page-list {
+  background-color: transparent;
+  color: #75a3e4;
   padding: 0.7rem 1.8rem 0.7rem 1rem;
 }
 
