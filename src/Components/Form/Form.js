@@ -29,6 +29,10 @@ export function Form() {
     }, 1000);
   };
 
+  const handlePageList = () => {
+    history.push("/suppliespage");
+  };
+
   return (
     <>
       <form onSubmit={handleAdd}>
@@ -46,18 +50,8 @@ export function Form() {
         </select>
 
         <button type="submit">Adicionar</button>
+        <button onClick={handlePageList}>Ver lista</button>
       </form>
-      <section className="ingredients-list">
-        <ul>
-          {list.map((item, index) => (
-            <li key={index}>
-              <span>
-                {item.ingredient} {item.metrics}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </section>
     </>
   );
 }

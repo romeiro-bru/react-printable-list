@@ -1,0 +1,12 @@
+.sup-list {
+  list-style-type: none;
+  color: white;
+}
+
+.sup-list li {
+  margin-top: 0.3rem;
+}
+
+.btn-return {
+  margin-top: 1rem;
+}

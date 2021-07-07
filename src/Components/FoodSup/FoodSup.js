@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./style.css";
 import { useHistory } from "react-router-dom";
 
 export function FoodSup() {
@@ -17,7 +18,7 @@ export function FoodSup() {
 
   return (
     <>
-      <ul>
+      <ul className="sup-list">
         {supList.map((item, index) => (
           <li key={index}>
             <span>
@@ -25,8 +26,10 @@ export function FoodSup() {
             </span>
           </li>
         ))}
+        <button className="btn-return" onClick={handleReturn}>
+          return
+        </button>
       </ul>
-      <button onClick={handleReturn}>return</button>
     </>
   );
 }
