@@ -1,9 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./style.css";
 
 export function Form() {
   const [inputs, setInputs] = useState({});
   const [list, setList] = useState([]);
+  const history = useHistory();
+
+  useEffect(() => {
+    const initVal = JSON.parse(localStorage.getItem("key"));
+    if (initVal !== null || initVal.length !== 0) {
+      setList(initVal);
+    }
+    console.log(initVal);
+  }, []);
 
   const handleInputChange = (e) => {
     setInputs({ ...inputs, [e.target.name]: e.target.value });
@@ -13,12 +23,10 @@ export function Form() {
     e.preventDefault();
     setList([...list, inputs]);
     localStorage.setItem("key", JSON.stringify([...list, inputs]));
-
     e.target.reset();
-    setInputs({
-      ingredient: "",
-      metrics: "Kg"
-    });
+    setTimeout(() => {
+      history.push("/suppliespage");
+    }, 1000);
   };
 
   return (
