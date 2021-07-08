@@ -10,7 +10,7 @@ export function Form() {
 
   useEffect(() => {
     const initVal = JSON.parse(localStorage.getItem("key"));
-    if (initVal !== null || initVal.length !== 0) {
+    if (initVal !== null) {
       setList(initVal);
     }
     console.log(initVal);
@@ -25,9 +25,6 @@ export function Form() {
     setList([...list, inputs]);
     localStorage.setItem("key", JSON.stringify([...list, inputs]));
     e.target.reset();
-    setTimeout(() => {
-      history.push("/suppliespage");
-    }, 1000);
   };
 
   const handlePageList = () => {

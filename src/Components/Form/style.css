@@ -1,5 +1,6 @@
 form {
   display: inline-block;
+  margin-top: 3rem;
 }
 
 input,
@@ -40,12 +41,11 @@ button:hover {
 
 .btn-page-list {
   background-color: transparent;
-  color: #75a3e4;
+  color: #4e6a92;
   padding: 0.7rem 1.8rem 0.7rem 1rem;
 }
 
 .arrow-right {
-  position: absolute;
   position: absolute;
   top: 30%;
   left: 75%;

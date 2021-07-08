@@ -1,15 +1,41 @@
 .sup-list {
-  list-style-type: none;
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 4rem;
   color: white;
-  text-align: left;
+  font-weight: lighter;
 }
 
-.sup-list li {
-  margin-top: 0.3rem;
+td,
+th {
+  border: 1px solid #a8b8c9;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+th {
+  padding: 0.5rem;
+}
+
+tr:nth-child(even) {
+  background-color: #808f9e;
+}
+
+.btn-amount {
+  position: relative;
+  background: transparent;
+}
+
+.add-amount {
+  position: absolute;
+  bottom: 25%;
+  right: 41%;
+  color: white;
+  font-size: 1rem;
 }
 
 .btn-return {
-  margin-top: 1rem;
+  margin-top: 3rem;
   background-color: transparent;
   color: #f1c95c;
   position: relative;

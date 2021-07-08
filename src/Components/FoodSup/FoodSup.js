@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BsArrowLeft } from "react-icons/bs";
+import { GoPlus } from "react-icons/go";
 import "./style.css";
 import { useHistory } from "react-router-dom";
 
@@ -19,19 +20,30 @@ export function FoodSup() {
 
   return (
     <>
-      <ul className="sup-list">
+      <table className="sup-list">
+        <tr>
+          <th>Itens</th>
+          <th>Quantidade</th>
+          <th>Unidade</th>
+          <th>Add/Remover</th>
+        </tr>
         {supList.map((item, index) => (
-          <li key={index}>
-            <span>
-              {item.ingredient} {item.metrics}
-            </span>
-          </li>
+          <tr key={index}>
+            <td className="list-item">{item.ingredient}</td>
+            <td>{item.metrics}</td>
+            <td className="item-amount">1</td>
+            <td>
+              <button className="btn-amount">
+                <GoPlus className="add-amount" />
+              </button>
+            </td>
+          </tr>
         ))}
         <button className="btn-return" onClick={handleReturn}>
           <BsArrowLeft className="arrow-left" />
           voltar
         </button>
-      </ul>
+      </table>
     </>
   );
 }
