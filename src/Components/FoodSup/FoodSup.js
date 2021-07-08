@@ -31,8 +31,8 @@ export function FoodSup() {
           {supList.map((item, index) => (
             <tr key={index}>
               <td className="list-item">{item.ingredient}</td>
-              <td>{item.metrics}</td>
               <td className="item-amount">1</td>
+              <td>{item.metrics}</td>
               <td>
                 <button className="btn-amount">
                   <GoPlus className="add-amount" />
