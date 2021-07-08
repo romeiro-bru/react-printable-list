@@ -41,10 +41,11 @@ export function Form() {
           required
         />
         <select name="metrics" onChange={handleInputChange} required>
-          <option value="Kg"> Kg</option>
-          <option selected value="mL">
-            mL
+          <option selected value="-">
+            Selecione a unidade
           </option>
+          <option value="Kg"> Kg</option>
+          <option value="mL">mL</option>
         </select>
 
         <button type="submit">Adicionar</button>

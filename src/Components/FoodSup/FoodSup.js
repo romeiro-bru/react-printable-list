@@ -21,28 +21,30 @@ export function FoodSup() {
   return (
     <>
       <table className="sup-list">
-        <tr>
-          <th>Itens</th>
-          <th>Quantidade</th>
-          <th>Unidade</th>
-          <th>Add/Remover</th>
-        </tr>
-        {supList.map((item, index) => (
-          <tr key={index}>
-            <td className="list-item">{item.ingredient}</td>
-            <td>{item.metrics}</td>
-            <td className="item-amount">1</td>
-            <td>
-              <button className="btn-amount">
-                <GoPlus className="add-amount" />
-              </button>
-            </td>
+        <section className="section-table">
+          <tr>
+            <th>Itens</th>
+            <th>Quantidade</th>
+            <th>Unidade</th>
+            <th>Add/Remover</th>
           </tr>
-        ))}
-        <button className="btn-return" onClick={handleReturn}>
-          <BsArrowLeft className="arrow-left" />
-          voltar
-        </button>
+          {supList.map((item, index) => (
+            <tr key={index}>
+              <td className="list-item">{item.ingredient}</td>
+              <td>{item.metrics}</td>
+              <td className="item-amount">1</td>
+              <td>
+                <button className="btn-amount">
+                  <GoPlus className="add-amount" />
+                </button>
+              </td>
+            </tr>
+          ))}
+          <button className="btn-return" onClick={handleReturn}>
+            <BsArrowLeft className="arrow-left" />
+            voltar
+          </button>
+        </section>
       </table>
     </>
   );
