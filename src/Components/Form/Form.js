@@ -40,12 +40,13 @@ export function Form() {
           placeholder=" Ingrediente"
           required
         />
-        <select name="metrics" onChange={handleInputChange} required>
+        <select name="unit" onChange={handleInputChange} required>
           <option selected value="-">
             Selecione a unidade
           </option>
           <option value="Kg"> Kg</option>
-          <option value="mL">mL</option>
+          <option value="mL"> mL</option>
+          <option value="L"> L</option>
         </select>
 
         <button type="submit">Adicionar</button>

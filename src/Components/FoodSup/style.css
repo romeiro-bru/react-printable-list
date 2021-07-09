@@ -25,21 +25,46 @@ td:nth-child(4n) {
   text-align: end;
 }
 
-.btn-amount,
-.btn-delete {
-  position: relative;
+.btn-delete,
+.btn-print {
   background: transparent;
   padding: 0 0.7rem;
 }
 
-.add-icon,
-.delete-icon {
-  position: absolute;
-  bottom: 25%;
-  right: 40%;
+.delete-icon,
+.print-icon {
   color: white;
   font-size: 1rem;
   margin: 0 0.3rem;
+}
+
+.print-icon {
+  font-size: 1.3rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 6rem;
+  background-color: #a88d40;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+
+  bottom: 124%;
+  left: 165%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 .btn-return {
