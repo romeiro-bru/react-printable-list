@@ -6,7 +6,6 @@
 
 ## Features :unicorn: 
 * Add items to list
-* Add quantity of items
 * Print the list
 
 ## Technologies :mag_right:
