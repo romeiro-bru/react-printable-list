@@ -21,17 +21,20 @@ tr:nth-child(even) {
   background-color: #808f9e;
 }
 
-.btn-amount {
+.btn-amount,
+.btn-delete {
   position: relative;
   background: transparent;
 }
 
-.add-amount {
+.add-icon,
+.delete-icon {
   position: absolute;
   bottom: 25%;
-  right: 41%;
+  right: 40%;
   color: white;
   font-size: 1rem;
+  margin: 0 0.3rem;
 }
 
 .btn-return {

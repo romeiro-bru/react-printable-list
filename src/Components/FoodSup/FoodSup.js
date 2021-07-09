@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BsArrowLeft } from "react-icons/bs";
 import { GoPlus } from "react-icons/go";
+import { BsTrash } from "react-icons/bs";
 import "./style.css";
 import { useHistory } from "react-router-dom";
 
@@ -35,7 +36,10 @@ export function FoodSup() {
               <td>{item.metrics}</td>
               <td>
                 <button className="btn-amount">
-                  <GoPlus className="add-amount" />
+                  <GoPlus className="add-icon" />
+                </button>
+                <button className="btn-delete">
+                  <BsTrash className="delete-icon" />
                 </button>
               </td>
             </tr>
