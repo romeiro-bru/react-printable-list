@@ -33,14 +33,14 @@ export function FoodSup() {
             <th>Itens</th>
             <th>Quantidade</th>
             <th>Unidade</th>
-            <th>Remover</th>
+            <th className="no-print">Remover</th>
           </tr>
           {supList.map((item, index) => (
             <tr key={index}>
               <td className="list-item">{item.ingredient}</td>
               <td className="item-amount">1</td>
               <td>{item.unit}</td>
-              <td>
+              <td className="no-print">
                 <form>
                   <button
                     onClick={() => handleRemove(index)}
@@ -52,11 +52,14 @@ export function FoodSup() {
               </td>
             </tr>
           ))}
-          <button className="btn-return" onClick={handleReturn}>
+          <button className="btn-return no-print" onClick={handleReturn}>
             <BsArrowLeft className="arrow-left" />
             voltar
           </button>
-          <button onClick={() => window.print()} className="btn-print tooltip">
+          <button
+            onClick={() => window.print()}
+            className="btn-print tooltip no-print"
+          >
             <span class="tooltiptext">Imprimir</span>
             <AiOutlinePrinter className="print-icon" />
           </button>

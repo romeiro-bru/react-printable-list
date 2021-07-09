@@ -50,7 +50,9 @@ td:nth-child(4n) {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 6rem;
-  background-color: #a88d40;
+  background-color: #f1c95c;
+  opacity: 0.9;
+  font-weight: lighter;
   color: #fff;
   text-align: center;
   padding: 0.5rem 0;
@@ -82,4 +84,11 @@ td:nth-child(4n) {
   right: 70%;
   font-size: 1rem;
   bottom: 2rem;
+}
+
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
 }
