@@ -10,6 +10,6 @@
 
 ## Technologies :mag_right:
 * React :atom:
-* SCSS :nail_care::sparkles:
+* CSS :nail_care:
 * LocalStorage :notebook:
 
