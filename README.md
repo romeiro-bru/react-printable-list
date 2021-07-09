@@ -9,6 +9,7 @@
 * Print the list
 
 ## Technologies :mag_right:
-* React :sparkles:
-* Css :nail_care:
+* React :atom:
+* SCSS :nail_care::sparkles:
+* LocalStorage :notebook:
 
