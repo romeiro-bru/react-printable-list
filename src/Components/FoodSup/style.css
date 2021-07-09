@@ -21,10 +21,15 @@ tr:nth-child(even) {
   background-color: #808f9e;
 }
 
+td:nth-child(4n) {
+  text-align: end;
+}
+
 .btn-amount,
 .btn-delete {
   position: relative;
   background: transparent;
+  padding: 0 0.7rem;
 }
 
 .add-icon,

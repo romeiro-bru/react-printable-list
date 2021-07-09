@@ -19,6 +19,12 @@ export function FoodSup() {
     history.push("/");
   };
 
+  const handleRemove = (index) => {
+    const list = JSON.parse(localStorage.getItem("key"));
+    const filtered = list.filter((_, i) => i !== index);
+    localStorage.setItem("key", JSON.stringify(filtered));
+  };
+
   return (
     <>
       <table className="sup-list">
@@ -38,7 +44,10 @@ export function FoodSup() {
                 <button className="btn-amount">
                   <GoPlus className="add-icon" />
                 </button>
-                <button className="btn-delete">
+                <button
+                  onClick={() => handleRemove(index)}
+                  className="btn-delete"
+                >
                   <BsTrash className="delete-icon" />
                 </button>
               </td>
