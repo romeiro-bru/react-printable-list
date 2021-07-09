@@ -12,7 +12,6 @@ export function FoodSup() {
   useEffect(() => {
     const ls = JSON.parse(localStorage.getItem("key"));
     ls !== null ? setSupList(ls) : setSupList("");
-    console.log(ls);
   }, []);
 
   const handleReturn = () => {
