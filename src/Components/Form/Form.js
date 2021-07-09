@@ -33,7 +33,7 @@ export function Form() {
 
   return (
     <>
-      <form onSubmit={handleAdd}>
+      <form className="submit-item" onSubmit={handleAdd}>
         <input
           name="ingredient"
           onChange={handleInputChange}
