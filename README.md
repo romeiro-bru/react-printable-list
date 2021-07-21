@@ -6,7 +6,7 @@
 
 ## Features :unicorn: 
 * Write down your list
-* Print the list
+* Print it out
 
 ## Technologies :mag_right:
 * React :atom:
