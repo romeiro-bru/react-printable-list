@@ -5,7 +5,7 @@
 </p>
 
 ## Features :unicorn: 
-* Add items to list
+* Write down your list
 * Print the list
 
 ## Technologies :mag_right:
