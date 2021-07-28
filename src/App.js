@@ -2,7 +2,7 @@ import "./styles.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Header } from "./Components/Header/Header";
 import { Form } from "./Components/Form/Form";
-import { FoodSup } from "./Components/FoodSup/FoodSup";
+import { List } from "./Components/List/List";
 import { Fragment } from "react";
 
 const MainPage = () => (
@@ -12,10 +12,10 @@ const MainPage = () => (
   </Fragment>
 );
 
-const SuppliesPage = () => (
+const ListPage = () => (
   <Fragment>
     <Header />
-    <FoodSup />
+    <List />
   </Fragment>
 );
 
@@ -25,7 +25,7 @@ export default function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={MainPage} />
-          <Route path="/suppliespage" component={SuppliesPage} />
+          <Route path="/listpage" component={ListPage} />
         </Switch>
       </Router>
     </div>

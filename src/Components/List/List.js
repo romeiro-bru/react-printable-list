@@ -5,7 +5,7 @@ import { AiOutlinePrinter } from "react-icons/ai";
 import "./style.css";
 import { useHistory } from "react-router-dom";
 
-export function FoodSup() {
+export function List() {
   const [supList, setSupList] = useState([]);
   const history = useHistory();
 
