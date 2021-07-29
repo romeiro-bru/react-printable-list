@@ -13,7 +13,6 @@ export function Form() {
     if (initVal !== null) {
       setList(initVal);
     }
-    console.log(initVal);
   }, []);
 
   const handleInputChange = (e) => {
@@ -28,7 +27,7 @@ export function Form() {
   };
 
   const handlePageList = () => {
-    history.push("/suppliespage");
+    history.push("/listpage");
   };
 
   return (

@@ -6,12 +6,12 @@ import "./style.css";
 import { useHistory } from "react-router-dom";
 
 export function List() {
-  const [supList, setSupList] = useState([]);
+  const [printList, setPrintList] = useState([]);
   const history = useHistory();
 
   useEffect(() => {
     const ls = JSON.parse(localStorage.getItem("key"));
-    ls !== null ? setSupList(ls) : setSupList("");
+    ls !== null ? setPrintList(ls) : setPrintList("");
   }, []);
 
   const handleReturn = () => {
@@ -34,7 +34,7 @@ export function List() {
             <th>Unidade</th>
             <th className="no-print">Remover</th>
           </tr>
-          {supList.map((item, index) => (
+          {printList.map((item, index) => (
             <tr key={index}>
               <td className="list-item">{item.ingredient}</td>
               <td className="item-amount">1</td>
