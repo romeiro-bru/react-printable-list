@@ -14,16 +14,25 @@
 * LocalStorage :notebook:
 
 
-## Instalação 👨‍🏭
 
-É necessário ter instalado <strong>Node.js</strong>,<strong>Git</strong>, <strong>Yarn</strong> 
-<br>
-<br>
+## Instalação / Inicialização 👨‍🏭
 
+É necessário ter instalado <strong>[Node.js](https://nodejs.org/en/download/)</strong>, 
+                           <strong>[Git](https://git-scm.com/downloads)</strong>, 
+                           <strong>[Yarn](https://yarnpkg.com/)</strong>.
+<br>
 ```git clone https://github.com/romeiro-bru/react-printable-list.git```
 
 Instalar dependências
 <br>
-<br>
 ```yarn install```
+
+Execute o seguinte comando para iniciar a aplicação num ambiente de desenvolvimento:
+<br>
+```yarn start```
+<br>
+
+No navegador, introduza:
+<br>
+```http://localhost:3000```
 
