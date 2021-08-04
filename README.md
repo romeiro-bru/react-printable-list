@@ -13,3 +13,17 @@
 * CSS :nail_care:
 * LocalStorage :notebook:
 
+
+### Instalação 👨‍🏭
+
+É necessário ter instalado <strong>Node.js</strong>,<strong>Git</strong>, <strong>Yarn</strong> 
+<br>
+<br>
+
+```git clone https://github.com/romeiro-bru/react-printable-list.git```
+
+Instalar dependências
+<br>
+<br>
+```yarn i
+
