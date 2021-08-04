@@ -25,7 +25,7 @@ cd react-printable-list
 yarn install
 ```
 
-And then run ```yarn start```
+Run in the project directory ```yarn start```
 
 Open ```http://localhost:3000``` in your browser
 
