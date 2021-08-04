@@ -13,26 +13,19 @@
 * CSS :nail_care:
 * LocalStorage :notebook:
 
+## Installing / Getting started 👨‍🏭
 
-
-## Instalação / Inicialização 👨‍🏭
-
-É necessário ter instalado <strong>[Node.js](https://nodejs.org/en/download/)</strong>, 
+Prerequisite to run the following commands <strong>[Node.js](https://nodejs.org/en/download/)</strong>, 
                            <strong>[Git](https://git-scm.com/downloads)</strong>, 
                            <strong>[Yarn](https://yarnpkg.com/)</strong>.
 <br>
-```git clone https://github.com/romeiro-bru/react-printable-list.git```
+```
+git clone https://github.com/romeiro-bru/react-printable-list.git
+cd react-printable-list
+yarn install
+```
 
-Instalar dependências
-<br>
-```yarn install```
+And then run ```yarn start```
 
-Execute o seguinte comando para iniciar a aplicação no ambiente de desenvolvimento:
-<br>
-```yarn start```
-<br>
-
-No navegador, introduza:
-<br>
-```http://localhost:3000```
+Open ```http://localhost:3000``` in your browser
 
