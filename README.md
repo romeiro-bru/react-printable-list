@@ -25,5 +25,5 @@
 Instalar dependências
 <br>
 <br>
-```yarn i
+```yarn install```
 
