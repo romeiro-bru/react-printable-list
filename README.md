@@ -14,7 +14,7 @@
 * LocalStorage :notebook:
 
 
-### Instalação 👨‍🏭
+## Instalação 👨‍🏭
 
 É necessário ter instalado <strong>Node.js</strong>,<strong>Git</strong>, <strong>Yarn</strong> 
 <br>
