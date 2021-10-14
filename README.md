@@ -1,7 +1,7 @@
 ## Printable List / Day Twelve / 30 days of React challenge 
 
-<p  align="center">
-<img  src="https://media.giphy.com/media/S60FmbC13E0tlsNp3N/giphy.gif"  height="200" alt="print">
+<p  align="left">
+<img  src="https://media.giphy.com/media/S60FmbC13E0tlsNp3N/giphy.gif"  height="140" alt="print">
 </p>
 
 ## Features 👾
